@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/2eab30c26b414e248fc3e9b5e4f31eb5/artifacts
+deleted_time: 1729686202426
+end_time: 1729683666255
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2eab30c26b414e248fc3e9b5e4f31eb5
+run_name: persistent-yak-983
+run_uuid: 2eab30c26b414e248fc3e9b5e4f31eb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729683665728
+status: 4
+tags: []
+user_id: ubuntu

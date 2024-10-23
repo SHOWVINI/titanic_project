@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/97a66510ea624d959fe724104f78cc32/artifacts
+end_time: 1729683848844
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97a66510ea624d959fe724104f78cc32
+run_name: fearless-ox-822
+run_uuid: 97a66510ea624d959fe724104f78cc32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729683847242
+status: 3
+tags: []
+user_id: ubuntu
