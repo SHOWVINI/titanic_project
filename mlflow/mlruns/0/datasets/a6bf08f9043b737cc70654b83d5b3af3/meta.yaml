@@ -1,0 +1,16 @@
+digest: 8ea56892
+name: dataset
+profile: '{"num_rows": 712, "num_elements": 9968}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "PassengerId", "required": true},
+  {"type": "long", "name": "Pclass", "required": true}, {"type": "string", "name":
+  "Name", "required": true}, {"type": "double", "name": "Age", "required": true},
+  {"type": "long", "name": "SibSp", "required": true}, {"type": "long", "name": "Parch",
+  "required": true}, {"type": "string", "name": "Ticket", "required": true}, {"type":
+  "double", "name": "Fare", "required": true}, {"type": "string", "name": "Cabin",
+  "required": false}, {"type": "boolean", "name": "Sex_female", "required": true},
+  {"type": "boolean", "name": "Sex_male", "required": true}, {"type": "boolean", "name":
+  "Embarked_C", "required": true}, {"type": "boolean", "name": "Embarked_Q", "required":
+  true}, {"type": "boolean", "name": "Embarked_S", "required": true}]}'
+source: '{"tags": {"mlflow.user": "ubuntu", "mlflow.source.name": "/home/ubuntu/working/titanic_project/preprocess.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "41ec0d42c87564e4ea794087c41417e19ca3e6c6"}}'
+source_type: code

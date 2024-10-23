@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3eff6b33fd9e4ff2b0d62ec64a7043fa/artifacts
+end_time: 1729685023054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3eff6b33fd9e4ff2b0d62ec64a7043fa
+run_name: sincere-eel-148
+run_uuid: 3eff6b33fd9e4ff2b0d62ec64a7043fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729685020347
+status: 3
+tags: []
+user_id: ubuntu
