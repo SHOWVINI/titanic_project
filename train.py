@@ -1,5 +1,3 @@
-# train.py
-
 import mlflow
 import sys
 import matplotlib.pyplot as plt
@@ -12,24 +10,19 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
-# Load preprocessed Titanic data
 data = pd.read_csv('data/train_preprocessed.csv')
 
-# Prepare feature and target variables
-X = data.drop(columns=["Survived"])  # Remove target variable
+X = data.drop(columns=["Survived"])
 y = data["Survived"]
 
-# Train/test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Define evaluation metrics
 def eval_metrics(actual, pred):
     accuracy = accuracy_score(actual, pred)
     precision = precision_score(actual, pred)
     recall = recall_score(actual, pred)
     return accuracy, precision, recall
 
-# Define performance plot function
 def plot_performance_metrics(accuracy, precision, recall, n_estimators, max_depth):
     metrics = ['Accuracy', 'Precision', 'Recall']
     values = [accuracy, precision, recall]
